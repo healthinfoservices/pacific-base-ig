@@ -1,16 +1,21 @@
 <a id="readme-top"></a>
 <div align="center">
   <a href="https://au-ig-template.healthinfoservices.site"><img src="docimg/logo extended.png" alt="Health Info Services Logo"></a>
-  <h2>Implementation Guide Template</h2>
-  <h4>FSH Code Package for Australian Context</h4>
+  <h2>South Pacific Core FHIR IG</h2>
+  <h4>FSH Code Package for South Pacific Core FHIR Implementation Guide</h4>
 </div>
 
 
 ## Overview
 
-This is an Implementation Guide (IG) template is intended as a starting place for new FHIR projects.  It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.
+This is a FHIR Implementation Guide (IG) intended to use as a base for derived national Core FHIR IG's of South Pacific nations.  It provides a basic structure for commonly used FHIR profiles with definitions that are relevant to many South Pacific nations.   The profile definitions are intended to be inherited and modified and/or extended as required to meet more detailed national Core IG requirements.
 
-This version of the template includes dependencies on the Australian FHIR standards - AU Base (v5.0.0) and AU Core (v1.0.0).   It is intended that a version of the template without jurisdiction specific dependencies will be subsequently created.
+The intention of this IG is that it will:  
+- provide a shared interoperability standard for data exchange between South Pacific nations
+- simplify the development of national Core IG's by providing a meaningful set of appropriate profile definitions that do not need to be redeveloped for each nation
+- simplify the development of applications and deployment configurations of healthsystems because of the common framework
+
+This version of the IG derives from FHIR R5.  
 
 ## Getting Started
 To configure your system to compile this code into an IG, follow the steps below. 
@@ -76,7 +81,7 @@ To setup and deploy the IG, ensure that you have the pre-requisite software inst
    ```
 
 ### Creating your own IG content
-To customise this template for our own you will need to use a text editor to modify the following:
+To customise or contribute to this IG for our own you will need to use a text editor to modify the following:
 
 1. Change the information in the sushi-config.yaml file to set overall settings for your IG.
 
@@ -123,15 +128,13 @@ Simple example profiles are included for the following resources:
 
 
 ## About the Project
-This template is provided by HealthInfoServices to help those starting on their FHIR journey,  and to make it more efficient for more experienced FHIR practitioners.  Enjoy and please feel free to credit HealthInfoServices in your work.
+This IG has been developed by HealthInfoServices to help South Pacific nations beginning their FHIR journey.  Enjoy and please feel free to credit HealthInfoServices in your work.
 
 ### License
 
 Distributed under the MIT License. See [LICENSE.txt][license-url] for more information.
 
 ### Acknowledgments
-* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Australia AU FHIR Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
 * [HealthInfoServices Australia](https://healthinfoservices.site)
 * [Daniel Foulkes][linkedin-df-url]
 
