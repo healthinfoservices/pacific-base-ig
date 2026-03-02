@@ -52,7 +52,6 @@ jobs:
 
       # 7. Run Sushi
       - name: Run Sushi
-      - name: Run Sushi
         run: |
           set -euxo pipefail
           sushi . -l debug
