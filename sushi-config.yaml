@@ -1,9 +1,9 @@
 # After you have cloned this template,  update the following 5 properties  
-id: southpacific.core.fhir.ig                                                                  # a unique identifier for this IG - you will need to update ig.ini with
-canonical: https://healthinfoservices.site/southpacific-core-fhir-ig                           # the canonical URL for this IG ideally with a domain you control
-name: SouthPacificCoreFHIRIG                                                                   # computer-readable name without spaces
-title: South Pacific Core FHIR Implementation Guide                                            # title of the IG
-description: FHIR Implementation Guide with Core Definitions for nations in the South Pacific  # this will show as the description of the IG
+id: pacific.base.fhir.ig                                                                  # a unique identifier for this IG - you will need to update ig.ini with
+canonical: https://healthinfoservices.net/pacific-base-fhir-ig                           # the canonical URL for this IG ideally with a domain you control
+name: PacificBaseFHIRIG                                                                   # computer-readable name without spaces
+title: Pacific Base FHIR Implementation Guide                                            # title of the IG
+description: FHIR Implementation Guide with Base Definitions for nations in the Pacific  # this will show as the description of the IG
 
 # update these as required
 status: draft # draft | active | retired | unknown
