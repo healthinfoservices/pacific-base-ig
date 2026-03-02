@@ -40,25 +40,6 @@ Alias: $condition-category-cs = http://terminology.hl7.org/CodeSystem/condition-
 
 Alias: $specimen-type-cs = http://terminology.hl7.org/CodeSystem/v2-0487
 
-// AU specific codesystems
-Alias: $au-id-type-cs = http://terminology.hl7.org.au/CodeSystem/v2-0203
-Alias: $au-indigenous-status-cs = https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1
-
-// au valuesets
-Alias: $au-org-type-vs = https://healthterminologies.gov.au/fhir/ValueSet/healthcare-organisation-role-type-1
-Alias: $au-contact-purpose-vs = http://terminology.hl7.org.au/ValueSet/contact-purpose
-Alias: $au-contact-reltype-vs = https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3
-Alias: $au-languages-vs = https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2
-
-// ----------- SYSTEM URL ALIASES --------------------------------------------------
-// Australian Identifier System urls
-Alias: $au-hpio-sys = http://ns.electronichealth.net.au/id/hi/hpio/1.0
-Alias: $au-paio-sys = http://ns.electronichealth.net.au/id/pcehr/paio/1.0
-Alias: $au-hpii-sys = http://ns.electronichealth.net.au/id/hi/hpii/1.0
-Alias: $au-ihi-sys = http://ns.electronichealth.net.au/id/hi/ihi/1.0
-Alias: $au-medicare-provider-sys = http://ns.electronichealth.net.au/id/medicare-provider-number
-Alias: $au-medicare-card-sys = http://ns.electronichealth.net.au/id/medicare-number
-
 // ---------- STRUCTURE DEFINITION ALIASES ---------------------------
 // Base FHIR Structure Definitions
 Alias: $patient = http://hl7.org/fhir/StructureDefinition/Patient
@@ -82,44 +63,3 @@ Alias: $patient-birthPlace = http://hl7.org/fhir/StructureDefinition/patient-bir
 Alias: $patient-mothersMaidenName = http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName
 Alias: $patient-interpreterRequired = http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired
 Alias: $patient-birthTime = http://hl7.org/fhir/StructureDefinition/patient-birthTime
-
-// AU Structure Definitions & Extensions
-Alias: $au-patient = http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient
-Alias: $au-practitioner = http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner
-Alias: $au-practitionerrole = http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitionerrole
-Alias: $au-allergyintolerance = http://hl7.org.au/fhir/core/StructureDefinition/au-core-allergyintolerance
-Alias: $au-condition = http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition
-Alias: $au-medicationrequest = http://hl7.org.au/fhir/core/StructureDefinition/au-core-medicationrequest
-Alias: $au-medicationstatement = http://hl7.org.au/fhir/StructureDefinition/au-medicationstatement
-Alias: $au-organization = http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization
-
-Alias: $au-closing-the-gap-registration = http://hl7.org.au/fhir/StructureDefinition/closing-the-gap-registration
-Alias: $au-date-of-arrival = http://hl7.org.au/fhir/StructureDefinition/date-of-arrival
-Alias: $au-date-accuracy-indicator = http://hl7.org.au/fhir/StructureDefinition/date-accuracy-indicator
-Alias: $au-dosage = http://hl7.org.au/fhir/StructureDefinition/au-dosage
-// AU identifier structure definitions
-Alias: $au-hpii = http://hl7.org.au/fhir/StructureDefinition/au-hpii
-Alias: $au-pbsprescribernumber = http://hl7.org.au/fhir/StructureDefinition/au-pbsprescribernumber
-Alias: $au-careagencyemployeeidentifier = http://hl7.org.au/fhir/StructureDefinition/au-careagencyemployeeidentifier
-Alias: $au-ahpraregistrationnumber = http://hl7.org.au/fhir/StructureDefinition/au-ahpraregistrationnumber
-Alias: $au-medicareprovidernumber = http://hl7.org.au/fhir/StructureDefinition/au-medicareprovidernumber
-Alias: $au-nationalprovideridentifieratorganisation = http://hl7.org.au/fhir/StructureDefinition/au-nationalprovideridentifieratorganisation
-Alias: $au-ihi = http://hl7.org.au/fhir/StructureDefinition/au-ihi
-Alias: $au-dvanumber = http://hl7.org.au/fhir/StructureDefinition/au-dvanumber
-Alias: $au-medicarecardnumber = http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber
-Alias: $au-healthcarecardnumber = http://hl7.org.au/fhir/StructureDefinition/au-healthcarecardnumber
-Alias: $au-pensionerconcessioncardnumber = http://hl7.org.au/fhir/StructureDefinition/au-pensionerconcessioncardnumber
-Alias: $au-cwlthseniorshealthcardnumber = http://hl7.org.au/fhir/StructureDefinition/au-cwlthseniorshealthcardnumber
-Alias: $au-medicalrecordnumber = http://hl7.org.au/fhir/StructureDefinition/au-medicalrecordnumber
-Alias: $au-insurancemembernumber = http://hl7.org.au/fhir/StructureDefinition/au-insurancemembernumber
-Alias: $au-hpio = http://hl7.org.au/fhir/StructureDefinition/au-hpio
-Alias: $au-paioidentifier = http://hl7.org.au/fhir/StructureDefinition/au-paioidentifier
-Alias: $au-cspregistrationnumber = http://hl7.org.au/fhir/StructureDefinition/au-cspregistrationnumber
-Alias: $au-australianbusinessnumber = http://hl7.org.au/fhir/StructureDefinition/au-australianbusinessnumber
-Alias: $au-australiancompanynumber = http://hl7.org.au/fhir/StructureDefinition/au-australiancompanynumber
-Alias: $au-australianregistredbodynumber = http://hl7.org.au/fhir/StructureDefinition/au-australianregistredbodynumber
-Alias: $au-nataaccreditationnumber = http://hl7.org.au/fhir/StructureDefinition/au-nataaccreditationnumber
-Alias: $au-pharmacyapprovalnumber = http://hl7.org.au/fhir/StructureDefinition/au-pharmacyapprovalnumber
-Alias: $au-address = http://hl7.org.au/fhir/StructureDefinition/au-address
-Alias: $au-indigenous-status = http://hl7.org.au/fhir/StructureDefinition/indigenous-status
-Alias: $au-veteran-status = http://hl7.org.au/fhir/StructureDefinition/veteran-status
