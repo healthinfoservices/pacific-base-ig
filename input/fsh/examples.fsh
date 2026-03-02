@@ -1,4 +1,4 @@
-# PacificHumanName Examples --------------------------------------------------------------
+// PacificHumanName Examples --------------------------------------------------------------
 Instance: ExamplePacificHumanNameOfficialOnly
 InstanceOf: PacificHumanName
 Usage: #example
@@ -34,7 +34,7 @@ Usage: #example
 * given[0] = "Taviri"
 * text = "Taviri"
 
-# Pacific Patient Examples ---------------------------------------------------------------------------
+// Pacific Patient Examples ---------------------------------------------------------------------------
 Instance: PacificPatientExample1
 InstanceOf: PacificPatient
 Usage: #example
