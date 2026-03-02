@@ -20,12 +20,6 @@ Integrates:
 * name 1..*
 * name only PacificHumanName
 
-// Encourage but do not require official/usual
-Invariant: pac-pat-1
-Description: "At least one name must have use = usual or official"
-Expression: "name.where(use = 'usual' or use = 'official').exists()"
-Severity: #warning
-
 // -----------------------------
 // Clan Extension Integration
 // -----------------------------
@@ -46,3 +40,9 @@ Severity: #warning
 // -----------------------------
 
 * name ^short = "At least one name required; usual preferred for display"
+
+// Encourage but do not require official/usual
+Invariant: pac-pat-1
+Description: "At least one name must have use = usual or official"
+Expression: "name.where(use = 'usual' or use = 'official').exists()"
+Severity: #warning

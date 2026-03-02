@@ -1,7 +1,7 @@
 // PacificHumanName Examples --------------------------------------------------------------
 Instance: ExamplePacificHumanNameOfficialOnly
 InstanceOf: PacificHumanName
-Usage: #example
+Usage: #inline
 
 * use = #official
 * given[0] = "Maria"
@@ -10,7 +10,7 @@ Usage: #example
 
 Instance: ExamplePacificHumanNameDual
 InstanceOf: PacificHumanName
-Usage: #example
+Usage: #inline
 
 * use = #official
 * given[0] = "Tevita"
@@ -19,7 +19,7 @@ Usage: #example
 
 Instance: ExamplePacificHumanNameUsual
 InstanceOf: PacificHumanName
-Usage: #example
+Usage: #inline
 
 * use = #usual
 * prefix[0] = "Susuga"
@@ -28,7 +28,7 @@ Usage: #example
 
 Instance: ExamplePacificHumanNameUsualOnly
 InstanceOf: PacificHumanName
-Usage: #example
+Usage: #inline
 
 * use = #usual
 * given[0] = "Taviri"
