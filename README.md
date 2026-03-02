@@ -1,19 +1,19 @@
 <a id="readme-top"></a>
 <div align="center">
   <a href="https://au-ig-template.healthinfoservices.site"><img src="docimg/logo extended.png" alt="Health Info Services Logo"></a>
-  <h2>South Pacific Core FHIR IG</h2>
-  <h4>FSH Code Package for South Pacific Core FHIR Implementation Guide</h4>
+  <h2>Pacific Base FHIR IG</h2>
+  <h4>FSH Code Package for Pacific Base FHIR Implementation Guide</h4>
 </div>
 
 
 ## Overview
 
-This is a FHIR Implementation Guide (IG) intended to use as a base for derived national Core FHIR IG's of South Pacific nations.  It provides a basic structure for commonly used FHIR profiles with definitions that are relevant to many South Pacific nations.   The profile definitions are intended to be inherited and modified and/or extended as required to meet more detailed national Core IG requirements.
+This is a FHIR Implementation Guide (IG) intended to use as a base for derived national Core FHIR IG's of Pacific nations.  It provides a basic structure for commonly used FHIR profiles with definitions that are relevant to many Pacific nations.   The profile definitions are intended to be inherited and modified and/or extended as required to meet more detailed national IG requirements.
 
-The intention of this IG is that it will:  
-- provide a shared interoperability standard for data exchange between South Pacific nations
+The goals of this IG are to:  
+- provide a shared interoperability standard for data exchange between Pacific nations
 - simplify the development of national Core IG's by providing a meaningful set of appropriate profile definitions that do not need to be redeveloped for each nation
-- simplify the development of applications and deployment configurations of healthsystems because of the common framework
+- provide a common data framework that will enable and simplify development of applications and deployment configurations that will work across the region, avoiding rework for each nation
 
 This version of the IG derives from FHIR R5.  
 
@@ -21,12 +21,11 @@ This version of the IG derives from FHIR R5.
 To configure your system to compile this code into an IG, follow the steps below. 
 
 ### Prerequisite Skills
-This template is designed to make your getting started process as easy as possible...  But if you are unfamiliar with FHIR, you are strongly recommended to first familiarise yourself with the basic concepts of FHIR resources.  There are many tutorials and guides,  but don't get lost in the weeds,  the best way to learn is actually starting with a simple project.
+This IG is designed to make your getting started process as easy as possible...  But if you are unfamiliar with FHIR, you are strongly recommended to first familiarise yourself with the basic concepts of FHIR resources.  There are many tutorials and guides,  but don't get lost in the weeds,  the best way to learn is actually starting with a simple project.
 
 Equally if you are not familiar with FHIR Shorthand (FSH) it would be good to follow a tutorial   My recommendations are:
 - [FSH Seminar](https://fshschool.github.io/courses/fsh-seminar/)
 - [Sushi Tutorial](https://fshschool.org/docs/sushi/tutorial/)
-  
 
 
 ### Required Software
@@ -41,7 +40,7 @@ To setup and deploy the IG, ensure that you have the pre-requisite software inst
 1. Create or go to a folder that you will use for working with the FSH code
 2. Clone this repository by executing:
   ```sh
-  git clone https://github.com/healthinfoservices/template-fhir-ig.git
+  git clone https://github.com/healthinfoservices/pacific-base-ig.git
   ```
 3. Install the FHIR packages listed in the dependencies section of the sushi-config.yaml file:
   ```sh
@@ -81,7 +80,7 @@ To setup and deploy the IG, ensure that you have the pre-requisite software inst
    ```
 
 ### Creating your own IG content
-To customise or contribute to this IG for our own you will need to use a text editor to modify the following:
+To customise or contribute to this IG you will need to use a text editor to modify the following:
 
 1. Change the information in the sushi-config.yaml file to set overall settings for your IG.
 
@@ -114,8 +113,8 @@ You might find these links helpful:
 
 Simple example profiles are included for the following resources:
 
-* Patient (AUTmpPatient)
-* Practitioner (AUTmpPractitioner)
+* Patient (PacificPatient)
+* Practitioner (PacificPractitioner)
 
 
 ### Acknowledgements
@@ -128,7 +127,7 @@ Simple example profiles are included for the following resources:
 
 
 ## About the Project
-This IG has been developed by HealthInfoServices to help South Pacific nations beginning their FHIR journey.  Enjoy and please feel free to credit HealthInfoServices in your work.
+This IG has been developed by HealthInfoServices to support Pacific nations on their Interoperability/FHIR journey.  Enjoy and please feel free to credit HealthInfoServices in your work.
 
 ### License
 
