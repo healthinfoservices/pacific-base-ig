@@ -1,5 +1,5 @@
 // Organization providing care for patients in this IG scope
-Profile: PacificOrganisation
+Profile: PacificOrganization
 Parent: Organization
 Description: "Profile for Pacific Healthcare Organization"
 * identifier 1..1 MS
