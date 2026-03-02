@@ -1,12 +1,12 @@
 // Condition registered
-Profile: HICondition
-Parent: $au-condition
-Description: "Profile of Condition."
+Profile: PacificCondition
+Parent: Condition
+Description: "Profile of Condition as defined for South Pacific."
 * identifier 1..* MS
-* code from HIDiagnosisCodeVS (required)
+* code 1..1
 * clinicalStatus 0..1 MS
 * verificationStatus 0..1 MS
 * category 1..* MS
-* severity from HISeverityVS (required)
-* subject only Reference(HIPatient)
+* severity 0..1
+* subject only Reference(PacificPatient)
 
