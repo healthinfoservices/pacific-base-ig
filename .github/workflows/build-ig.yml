@@ -52,7 +52,10 @@ jobs:
 
       # 7. Run Sushi
       - name: Run Sushi
-        run: sushi .
+      - name: Run Sushi
+        run: |
+          set -euxo pipefail
+          sushi . -l debug
 
       # Install Ruby and Jekyll for IG rendering
       - name: Install Ruby and Jekyll
@@ -63,7 +66,10 @@ jobs:
 
       # 8. Run IG Publisher
       - name: Run IG Publisher
-        run: java -jar publisher.jar -ig ig.ini
+        run: |
+          set -euxo pipefail
+          java -Xmx4g -jar publisher.jar -ig ig.ini | tee publisher.log
+      # run: java -jar publisher.jar -ig ig.ini
 
       # 9. Deploy to gh-pages branch
       - name: Deploy IG to GitHub Pages
