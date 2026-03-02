@@ -18,6 +18,6 @@ menu:
   Artifacts: artifacts.html
 
 # leave these settings as is unless you know what you're doing
-fhirVersion: 4.3.0
+fhirVersion: 4.0.1
 instanceOptions:
   manualSliceOrdering: true
