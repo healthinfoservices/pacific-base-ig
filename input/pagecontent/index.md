@@ -1,27 +1,53 @@
 <a id="readme-top"></a>
 <div align="center">
-  <a href="https://au-ig-template.healthinfoservices.site"><img src="https://healthinfoservices.site/images/logo extended.png" width=100 alt="Health Info Services Logo"></a>
-  <h2>Implementation Guide Template</h2>
-  <h4>Code Package for Australian Context</h4>
+  <a href="https://au-ig-template.healthinfoservices.site"><img src="docimg/logo extended.png" alt="Health Info Services Logo"></a>
+  <h2>Pacific Base FHIR IG</h2>
+  <h4>FSH Code Package for Pacific Base FHIR Implementation Guide</h4>
 </div>
 
 
 ## Overview
 
-This is an Implementation Guide (IG) template is intended as a starting place for new FHIR projects.  It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.
+This is a FHIR Implementation Guide (IG) intended to use as a base for derived national Core FHIR IG's of Pacific nations.  It provides a basic structure for commonly used FHIR profiles with definitions that are relevant to many Pacific nations.   The profile definitions are intended to be inherited and modified and/or extended as required to meet more detailed national IG requirements.
 
-This version of the template includes dependencies on the Australian FHIR standards - AU Base (v5.0.0) and AU Core (v1.0.0).   It is intended that a version of the template without jurisdiction specific dependencies will be subsequently created.
+The goals of this IG are to:  
+- provide a shared interoperability standard for data exchange between Pacific nations
+- simplify the development of national Core IG's by providing a meaningful set of appropriate profile definitions that do not need to be redeveloped for each nation
+- provide a common data framework that will enable and simplify development of applications and deployment configurations that will work across the region, avoiding rework for each nation
+
+This version of the IG derives from FHIR R4.  
+
+
+## About the Project
+This IG has been developed by HealthInfoServices to support Pacific nations on their Interoperability/FHIR journey.  Enjoy and please feel free to credit HealthInfoServices in your work.
+
+## Example Profiles
+
+Simple example profiles are included for the following resources:
+
+* Patient (PacificPatient)
+* Practitioner (PacificPractitioner)
+
+### License
+
+Distributed under the MIT License. See [LICENSE.txt][license-url] for more information.
+
+### Acknowledgments
+* [HealthInfoServices Australia](https://healthinfoservices.site)
+* [Daniel Foulkes][linkedin-df-url]
+* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
+
+
 
 ## Getting Started
 To configure your system to compile this code into an IG, follow the steps below. 
 
 ### Prerequisite Skills
-This template is designed to make your getting started process as easy as possible...  But if you are unfamiliar with FHIR, you are strongly recommended to first familiarise yourself with the basic concepts of FHIR resources.  There are many tutorials and guides,  but don't get lost in the weeds,  the best way to learn is actually starting with a simple project.
+This IG is designed to make your getting started process as easy as possible...  But if you are unfamiliar with FHIR, you are strongly recommended to first familiarise yourself with the basic concepts of FHIR resources.  There are many tutorials and guides,  but don't get lost in the weeds,  the best way to learn is actually starting with a simple project.
 
 Equally if you are not familiar with FHIR Shorthand (FSH) it would be good to follow a tutorial   My recommendations are:
 - [FSH Seminar](https://fshschool.github.io/courses/fsh-seminar/)
 - [Sushi Tutorial](https://fshschool.org/docs/sushi/tutorial/)
-  
 
 
 ### Required Software
@@ -36,7 +62,7 @@ To setup and deploy the IG, ensure that you have the pre-requisite software inst
 1. Create or go to a folder that you will use for working with the FSH code
 2. Clone this repository by executing:
   ```sh
-  git clone https://github.com/healthinfoservices/template-fhir-ig.git
+  git clone https://github.com/healthinfoservices/pacific-base-ig.git
   ```
 3. Install the FHIR packages listed in the dependencies section of the sushi-config.yaml file:
   ```sh
@@ -76,7 +102,7 @@ To setup and deploy the IG, ensure that you have the pre-requisite software inst
    ```
 
 ### Creating your own IG content
-To customise this template for our own you will need to use a text editor to modify the following:
+To customise or contribute to this IG you will need to use a text editor to modify the following:
 
 1. Change the information in the sushi-config.yaml file to set overall settings for your IG.
 
@@ -105,35 +131,6 @@ To customise this template for our own you will need to use a text editor to mod
 You might find these links helpful:
 
 
-## Example Profiles
-
-Simple example profiles are included for the following resources:
-
-* Patient (AUTmpPatient)
-* Practitioner (AUTmpPractitioner)
-
-
-### Acknowledgements
-* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Australia AU FHIR Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
-* [HealthInfoServices - Australia](https://healthinfoservices.site)
-
-
-
-
-
-## About the Project
-This template is provided by HealthInfoServices to help those starting on their FHIR journey,  and to make it more efficient for more experienced FHIR practitioners.  Enjoy and please feel free to credit HealthInfoServices in your work.
-
-### License
-
-Distributed under the MIT License. See [LICENSE.txt][license-url] for more information.
-
-### Acknowledgments
-* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Australia AU FHIR Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
-* [HealthInfoServices Australia](https://healthinfoservices.site)
-* [Daniel Foulkes][linkedin-df-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,5 +140,5 @@ Distributed under the MIT License. See [LICENSE.txt][license-url] for more infor
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg
 [fsh-badge]: https://fshschool.org/favicon.ico
 [fsh-url]: https://fshschool.org/
-[license-url]: https://au-ig-template.healthinfoservices.site/LICENSE.txt
+[license-url]: https://pacific-base-ig.healthinfoservices.site/LICENSE.txt
 

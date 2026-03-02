@@ -15,7 +15,7 @@ The goals of this IG are to:
 - simplify the development of national Core IG's by providing a meaningful set of appropriate profile definitions that do not need to be redeveloped for each nation
 - provide a common data framework that will enable and simplify development of applications and deployment configurations that will work across the region, avoiding rework for each nation
 
-This version of the IG derives from FHIR R5.  
+This version of the IG derives from FHIR R4.  
 
 ## Getting Started
 To configure your system to compile this code into an IG, follow the steps below. 
@@ -119,7 +119,6 @@ Simple example profiles are included for the following resources:
 
 ### Acknowledgements
 * [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Australia AU FHIR Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
 * [HealthInfoServices - Australia](https://healthinfoservices.site)
 
 
@@ -145,5 +144,5 @@ Distributed under the MIT License. See [LICENSE.txt][license-url] for more infor
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg
 [fsh-badge]: https://fshschool.org/favicon.ico
 [fsh-url]: https://fshschool.org/
-[license-url]: https://au-ig-template.healthinfoservices.site/LICENSE.txt
+[license-url]: https://pacific-base-ig.healthinfoservices.site/LICENSE.txt
 
