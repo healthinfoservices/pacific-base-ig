@@ -1,5 +1,5 @@
 // Medication Allergies 
-Profile: HIAllergy
+Profile: PacificAllergyIntolerance
 Parent: $au-allergyintolerance
 Description: "Profile of Allergy/Intolerance"
 * code 1..1 MS
@@ -7,4 +7,4 @@ Description: "Profile of Allergy/Intolerance"
 * verificationStatus 0..1 MS
 * category 1..* MS
 * criticality 0..1 MS
-* patient only Reference(HIPatient)
+* patient only Reference(PacificPatient)
