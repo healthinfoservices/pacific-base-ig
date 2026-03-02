@@ -17,7 +17,7 @@ menu:
   Home: index.html
   Artifacts: artifacts.html
 
-# leave these settings as is unless you know what you're doing
+# leave these settings as is unless you know what you're doing and have a reason to change them
 fhirVersion: 4.0.1
 instanceOptions:
   manualSliceOrdering: true
