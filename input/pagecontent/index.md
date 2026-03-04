@@ -21,7 +21,7 @@ This IG has been developed by HealthInfoServices to support Pacific nations on t
 
 This IG is currently in first draft state.  If you have experience and responsibility delivering health in the Pacific, any assistance, comments or suggestions would be deeply valued as we seek to refine this further.
 
-### Example Profiles
+#### Example Profiles
 
 Simple example profiles are included for the following resources:
 

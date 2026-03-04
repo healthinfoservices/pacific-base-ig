@@ -1,13 +1,14 @@
 # After you have cloned this template,  update the following 5 properties  
 id: pacific.base.fhir.ig                                                                  # a unique identifier for this IG - you will need to update ig.ini with
-canonical: https://healthinfoservices.net/pacific-base-fhir-ig                           # the canonical URL for this IG ideally with a domain you control
+packageId: pacific.base.fhir.ig                                                           # the packageId must match the id above
+canonical: https://healthinfoservices.net/pacific-base-ig                                 # the canonical URL for this IG ideally with a domain you control
+version: 1.0.0                                                                            # the version of this IG - update as needed
 name: PacificBaseFHIRIG                                                                   # computer-readable name without spaces
-title: Pacific Base FHIR Implementation Guide                                            # title of the IG
-description: FHIR Implementation Guide with Base Definitions for nations in the Pacific  # this will show as the description of the IG
+title: Pacific Base FHIR Implementation Guide                                             # title of the IG
+description: FHIR Implementation Guide with Base Definitions for nations in the Pacific   # this will show as the description of the IG
+status: draft # draft | active | retired | unknown
 
 # update these as required
-status: draft # draft | active | retired | unknown
-version: 0.0.2
 copyrightYear: 2026
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: MIT
