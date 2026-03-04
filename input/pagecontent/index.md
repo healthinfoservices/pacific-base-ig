@@ -1,12 +1,11 @@
 <a id="readme-top"></a>
 <div align="center">
-  <a href="https://healthinfoservices.net/pacific-base-ig"><img src="logo extended.png" alt="Health Info Services Logo"></a>
   <h2>Pacific Base FHIR IG</h2>
   <h4>FSH Code Package for Pacific Base FHIR Implementation Guide</h4>
 </div>
 
 
-## Overview
+### Overview
 
 This is a FHIR Implementation Guide (IG) intended to use as a base for derived national Core FHIR IG's of Pacific nations.  It provides a basic structure for commonly used FHIR profiles with definitions that are relevant to many Pacific nations.   The profile definitions are intended to be inherited and modified and/or extended as required to meet more detailed national IG requirements.
 
@@ -17,12 +16,12 @@ The goals of this IG are:
 
 This version of the IG derives from FHIR R4B (ver 4.3.0).  
 
-## About the Project
+### About the Project
 This IG has been developed by HealthInfoServices to support Pacific nations on their Interoperability/FHIR journey.  This is free to use.  Enjoy and please feel free to credit HealthInfoServices in your work.
 
 This IG is currently in first draft state.  If you have experience and responsibility delivering health in the Pacific, any assistance, comments or suggestions would be deeply valued as we seek to refine this further.
 
-## Example Profiles
+### Example Profiles
 
 Simple example profiles are included for the following resources:
 
