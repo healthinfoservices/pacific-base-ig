@@ -1,7 +1,7 @@
 Profile: PacificPatient
 Parent: Patient
 Id: pacific-patient
-Title: "Pacific Base Patient"
+Title: "Pacific Patient"
 Description: """
 Base Patient profile for South Pacific jurisdictions.
 

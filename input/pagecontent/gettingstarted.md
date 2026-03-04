@@ -2,7 +2,7 @@
 <div align="center">
   <a href="https://au-ig-template.healthinfoservices.site"><img src="docimg/logo extended.png" alt="Health Info Services Logo"></a>
   <h2>Pacific Base FHIR IG</h2>
-  <h4>FSH Code Package for Pacific Base FHIR Implementation Guide</h4>
+  <h4>Getting Started Using or Contributing to this IG</h4>
 </div>
 
 
@@ -21,26 +21,6 @@ This version of the IG derives from FHIR R4B (ver 4.3.0).
 This IG has been developed by HealthInfoServices to support Pacific nations on their Interoperability/FHIR journey.  This is free to use.  Enjoy and please feel free to credit HealthInfoServices in your work.
 
 This IG is currently in first draft state.  If you have experience and responsibility delivering health in the Pacific, any assistance, comments or suggestions would be deeply valued as we seek to refine this further.
-
-## Example Profiles
-
-Simple example profiles are included for the following resources:
-
-* Patient (PacificPatient)
-* Practitioner (PacificPractitioner)
-
-
-### References and Acknowledgements
-* [FHIR Shorthand repository for this IG](https://github.com/healthinfoservices/pacific-base-ig)
-* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Shorthand training][fsh-url]
-* [HealthInfoServices - Australia](https://healthinfoservices.net)
-* [Daniel Foulkes][linkedin-df-url]
-
-
-### License
-
-Distributed under the MIT License. See [LICENSE.txt][license-url] for more information.
 
 ## Getting Started
 To configure your system to compile this code into an IG, follow the steps below. 
@@ -130,9 +110,12 @@ To customise or contribute to this IG you will need to use a text editor to modi
   ./_genonce.bat
   ```
 
-## Useful Links and Cheatsheets
-You might find these links helpful:
-
+### References and Acknowledgements
+* [FHIR Shorthand repository for this IG](https://github.com/healthinfoservices/pacific-base-ig)
+* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
+* [FHIR Shorthand training][fsh-url]
+* [HealthInfoServices - Australia](https://healthinfoservices.net)
+* [Daniel Foulkes][linkedin-df-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
