@@ -51,11 +51,11 @@ Integrates:
 
 
 * generalPractitioner 0..*
-* generalPractitioner only Reference(PacificPractitioner, PacificOrganization, PacificPractitionerRole, Practitioner, Organization, PractitionerRole)
+* generalPractitioner only Reference(PacificPractitioner or PacificOrganization or PacificPractitionerRole or Practitioner or Organization or PractitionerRole)
 * generalPractitioner ^short = "Care providers for this patient; prefer Pacific-specific profiles"
 
 * managingOrganization 0..1
-* managingOrganization only Reference(PacificOrganization, Organization)
+* managingOrganization only Reference(PacificOrganization or Organization)
 * managingOrganization ^short = "Organization responsible for the patient; prefer Pacific-specific profiles"
 
 ///////////////////////////////////////////////////////////////
