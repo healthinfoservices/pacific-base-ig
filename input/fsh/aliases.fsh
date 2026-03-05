@@ -58,8 +58,10 @@ Alias: $identifier = http://hl7.org/fhir/StructureDefinition/Identifier
 Alias: $reference = http://hl7.org/fhir/StructureDefinition/Reference
 Alias: $narrative = http://hl7.org/fhir/StructureDefinition/Narrative
  
-// Generic Structure Definitions
+// Commonly Used Extension Definitions
 Alias: $patient-birthPlace = http://hl7.org/fhir/StructureDefinition/patient-birthPlace
 Alias: $patient-mothersMaidenName = http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName
 Alias: $patient-interpreterRequired = http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired
 Alias: $patient-birthTime = http://hl7.org/fhir/StructureDefinition/patient-birthTime
+Alias: $geolocation = http://hl7.org/fhir/StructureDefinition/geolocation
+

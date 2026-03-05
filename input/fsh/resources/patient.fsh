@@ -43,6 +43,9 @@ Integrates:
 * gender MS
 * birthDate MS
 
+* address 0..*
+* address only PacificAddress
+
 // -----------------------------
 // Display Guidance
 // -----------------------------
@@ -50,8 +53,22 @@ Integrates:
 * name ^short = "At least one name required; usual preferred for display"
 
 
-* generalPractitioner 0..*
-* generalPractitioner only Reference(PacificPractitioner or PacificOrganization or PacificPractitionerRole or Practitioner or Organization or PractitionerRole)
+* generalPractitioner ^slicing.discriminator.type = #type
+* generalPractitioner ^slicing.discriminator.path = "$this"
+* generalPractitioner ^slicing.rules = #open
+
+* generalPractitioner contains
+    practitioner 0..* and
+    role 0..*
+
+* generalPractitioner[practitioner] only Reference(
+    PacificPractitioner or Practitioner
+)
+
+* generalPractitioner[role] only Reference(
+    PacificPractitionerRole or PractitionerRole
+)
+
 * generalPractitioner ^short = "Care providers for this patient; prefer Pacific-specific profiles"
 
 * managingOrganization 0..1

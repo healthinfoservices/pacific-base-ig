@@ -5,4 +5,5 @@ Description: "Profile for Pacific Healthcare Organization"
 * identifier 1..1 MS
 * name 1..1 MS
 * telecom 1..* MS
-* address 1..* MS
+* address 0..* MS
+* address only PacificAddress
