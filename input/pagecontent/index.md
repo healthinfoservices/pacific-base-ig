@@ -6,7 +6,7 @@
 
 
 ### Overview
-
+(2026-03-06 7:33)
 This is a FHIR Implementation Guide (IG) intended to use as a base for derived national Core FHIR IG's of Pacific nations.  It provides a basic structure for commonly used FHIR profiles with definitions that are relevant to many Pacific nations.   The profile definitions are intended to be inherited and modified and/or extended as required to meet more detailed national IG requirements.
 
 The goals of this IG are:  
