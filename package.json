@@ -1,0 +1,9 @@
+{
+  "name": "pacific-base-ig",
+  "version": "1.0.0",
+  "description": "Pacific Base IG using FHIR R4B",
+  "license": "MIT",
+  "dependencies": {
+    "hl7.fhir.r4b.core": "4.3.0"
+  }
+}
