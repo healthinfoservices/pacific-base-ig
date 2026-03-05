@@ -11,6 +11,13 @@ Requires at least one official name (registered/licensed name).
 Supports usual name for culturally recognised or commonly used name.
 Supports clan affiliation as an optional extension.
 """
+// TODO: 
+// Consider adding a "displayName" extension for easier display of preferred name in EHRs and HIEs.
+// Require at least one professional identifier slice for registration
+// Bind qualification.code to a Pacific value set
+// Require communication language
+
+
 
 * ^status = #active
 * ^version = "1.0.0"
@@ -39,7 +46,7 @@ Supports clan affiliation as an optional extension.
     usual 0..1
 
 * name[official].use = #official (exactly)
-* name[official] ^short = "Registered/licensed name"
+* name[official] ^short = "Clinician Registered/licensed name"
 
 * name[usual].use = #usual (exactly)
 * name[usual] ^short = "Name commonly used in clinical or community settings"
