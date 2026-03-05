@@ -71,7 +71,3 @@ Recommended mapping of address fields are below but should be specifically defin
 
 * extension[geolocation] ^short = "Geographic coordinates of the address."
 * extension[geolocation] ^definition = "Latitude and longitude coordinates representing the geographic location of the address. May represent household, facility, or village centroid."
-
-
-* postalCode 0..1
-* postalCode ^short = "Postal code is often not used, so is currently optional and may be removed if not required in the future"
