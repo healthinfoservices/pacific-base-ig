@@ -1,0 +1,156 @@
+PacificBaseIG : Validation Results
+=========================================
+
+err = 30, warn = 48, info = 9
+$--
+Generated $--. FHIR version $-- for pacific.base.ig#$-- (canonical = https://healthinfoservices.net/pacific-base-ig)
+ Build Errors : 5 / 6 / 0
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/ImplementationGuide-pacific.base.ig : 1 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/Organization-PacificHospitalExample : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/Patient-PacificPatientExample1 : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/Patient-PacificPatientExample2 : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/Patient-PacificPatientFijiITaukei : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/Patient-PacificPatientFijiIndo : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/Practitioner-PacificPractitionerExample : 1 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-address : 0 / 2 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-address-island : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-address-village : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance : 0 / 1 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-clan-affiliation : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-condition : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-humanname : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-observation : 4 / 3 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-organization : 0 / 2 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-patient : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-practitioner : 0 / 0 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-practitioner-role : 0 / 1 / 1
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure : 4 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-bmi : 2 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature : 2 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate : 2 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-height : 4 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation : 2 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate : 2 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/StructureDefinition-pacific-vital-weight : 2 / 3 / 2
+ /home/runner/work/pacific-base-ig/pacific-base-ig/fsh-generated/resources/ValueSet-heart-rate-loinc : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide/pacific.base.ig: This IG is version 4.3.0, while the IG 'hl7.terminology.r4' is from version 4.0.1
+ERROR: ImplementationGuide/pacific.base.ig: This IG is version 4.3.0, while the IG 'hl7.fhir.uv.extensions.r4' is from version 4.0.1
+ERROR: ImplementationGuide/pacific.base.ig: This IG is version 4.3.0, while the IG 'hl7.fhir.uv.tools.r4' is from version 4.0.1
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/PacificPatientExample1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/PacificPatientExample2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: gettingstarted.html#/html/body/div/div/div/div/div/div/a/img at Line 153, column 61: The image source 'docimg/logo extended.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 228, column 27: The link 'https://healthinfoservices.net/pacific-base-ig/LICENSE.html' for "MIT License" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-pacific.base.ig.json ==
+WARNING: ImplementationGuide/pacific.base.ig: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 4.3.0 but package hl7.terminology.r4#7.1.0 is based on FHIR version 4.0.1. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+ERROR: ImplementationGuide/pacific.base.ig: ImplementationGuide.dependsOn[1]: The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r4
+== fsh-generated/resources/Organization-PacificHospitalExample.json ==
+WARNING: Organization/PacificHospitalExample: Organization.identifier[0].system: No definition could be found for URL value 'http://health.gov.fj/fhir/identifier/organization'
+== fsh-generated/resources/Patient-PacificPatientExample1.json ==
+== fsh-generated/resources/Patient-PacificPatientExample2.json ==
+== fsh-generated/resources/Patient-PacificPatientFijiITaukei.json ==
+WARNING: Patient/PacificPatientFijiITaukei: Patient.identifier[0].system: No definition could be found for URL value 'http://health.gov.fj/fhir/identifier/nhi'
+== fsh-generated/resources/Patient-PacificPatientFijiIndo.json ==
+WARNING: Patient/PacificPatientFijiIndo: Patient.identifier[0].system: No definition could be found for URL value 'http://health.gov.fj/fhir/identifier/nhi'
+== fsh-generated/resources/Practitioner-PacificPractitionerExample.json ==
+ERROR: Practitioner/PacificPractitionerExample: Practitioner: The extension https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-clan-affiliation is not allowed to be used at this point (this element is [Practitioner]; allowed for this version = e:Patient)
+WARNING: Practitioner/PacificPractitionerExample: Practitioner.identifier[0].system: No definition could be found for URL value 'http://health.gov.ws/practitioner-registration'
+== fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample.json ==
+== fsh-generated/resources/StructureDefinition-pacific-address.json ==
+WARNING: StructureDefinition/pacific-address: StructureDefinition.snapshot.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.3.0 (from hl7.fhir.r4b.core#4.3.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0'
+WARNING: StructureDefinition/pacific-address: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.3.0 (from hl7.fhir.r4b.core#4.3.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0'
+== fsh-generated/resources/StructureDefinition-pacific-address-island.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-address-island'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pacific-address-village.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-address-village'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance.json ==
+INFORMATION: StructureDefinition/pacific-allergy-intolerance: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-allergy-intolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-clan-affiliation.json ==
+== fsh-generated/resources/StructureDefinition-pacific-condition.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-humanname.json ==
+== fsh-generated/resources/StructureDefinition-pacific-observation.json ==
+ERROR: StructureDefinition/pacific-observation: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/pacific-observation: StructureDefinition.differential.element[1].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/pacific-observation: StructureDefinition.differential.element[1].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+WARNING: StructureDefinition/pacific-observation: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-observation: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+WARNING: StructureDefinition/pacific-observation: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-organization.json ==
+WARNING: StructureDefinition/pacific-organization: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Organization.contact.purpose' binds to the value set 'http://hl7.org/fhir/ValueSet/contactentity-type|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-patient.json ==
+== fsh-generated/resources/StructureDefinition-pacific-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-pacific-practitioner-role.json ==
+WARNING: StructureDefinition/pacific-practitioner-role: StructureDefinition.snapshot.element[15].binding: The definition for the element 'PractitionerRole.specialty' binds to the value set 'http://hl7.org/fhir/ValueSet/c80-practice-codes|4.3.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure.json ==
+ERROR: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Blood pressure panel' for http://loinc.org#85354-9. Valid display is one of 3 choices: 'Blood pressure panel with all children optional' (en-US), 'Blood pressure panel with all children optional' (en-US) or 'BP pnl w all optional' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Blood pressure panel' for http://loinc.org#85354-9. Valid display is one of 3 choices: 'Blood pressure panel with all children optional' (en-US), 'Blood pressure panel with all children optional' (en-US) or 'BP pnl w all optional' (en-US) (for the language(s) 'en-US')
+WARNING: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-blood-pressure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-bmi.json ==
+ERROR: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-bmi'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature.json ==
+ERROR: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-body-temperature'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate.json ==
+ERROR: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-heart-rate'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-height.json ==
+ERROR: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Height' for http://loinc.org#8302-2. Valid display is one of 3 choices: 'Body height' (en-US), 'Body height' (en-US) or 'Body height' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/pacific-vital-height: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Height' for http://loinc.org#8302-2. Valid display is one of 3 choices: 'Body height' (en-US), 'Body height' (en-US) or 'Body height' (en-US) (for the language(s) 'en-US')
+WARNING: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-height'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation.json ==
+ERROR: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-oxygen-saturation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate.json ==
+ERROR: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-respiratory-rate'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-weight.json ==
+ERROR: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/observation-category' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Observation.status' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-status|4.3.0' which is experimental, but this structure is not labeled as experimental
+ERROR: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://terminology.hl7.org/CodeSystem/observation-category on element Observation.category points to something that is not a value set (CodeSystem)
+INFORMATION: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[43].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-weight'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-heart-rate-loinc.json ==
+ERROR: ValueSet/heart-rate-loinc: ValueSet.compose.include[0].concept[1]: The code '8867-6' is not valid in the system http://loinc.org (Unknown code '8867-6' in the CodeSystem 'http://loinc.org' version '2.81')
+WARNING: ValueSet/heart-rate-loinc: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

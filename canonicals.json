@@ -1,0 +1,154 @@
+[{
+  "id" : "pacific.base.ig",
+  "type" : "ImplementationGuide",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/ImplementationGuide/pacific.base.ig",
+  "version" : "1.0.0",
+  "name" : "PacificBaseIG"
+},
+{
+  "id" : "pacific-address",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-address",
+  "version" : "1.0.0",
+  "name" : "PacificAddress"
+},
+{
+  "id" : "pacific-address-island",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-address-island",
+  "version" : "1.0.0",
+  "name" : "PacificAddressIsland"
+},
+{
+  "id" : "pacific-address-village",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-address-village",
+  "version" : "1.0.0",
+  "name" : "PacificAddressVillage"
+},
+{
+  "id" : "pacific-allergy-intolerance",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-allergy-intolerance",
+  "version" : "1.0.0",
+  "name" : "PacificAllergyIntolerance"
+},
+{
+  "id" : "pacific-clan-affiliation",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-clan-affiliation",
+  "version" : "1.0.0",
+  "name" : "PacificClanAffiliation"
+},
+{
+  "id" : "pacific-condition",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-condition",
+  "version" : "1.0.0",
+  "name" : "PacificCondition"
+},
+{
+  "id" : "pacific-humanname",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-humanname",
+  "version" : "1.0.0",
+  "name" : "PacificHumanName"
+},
+{
+  "id" : "pacific-observation",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-observation",
+  "version" : "1.0.0",
+  "name" : "PacificObservation"
+},
+{
+  "id" : "pacific-organization",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-organization",
+  "version" : "1.0.0",
+  "name" : "PacificOrganization"
+},
+{
+  "id" : "pacific-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-patient",
+  "version" : "1.0.0",
+  "name" : "PacificPatient"
+},
+{
+  "id" : "pacific-practitioner",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-practitioner",
+  "version" : "1.0.0",
+  "name" : "PacificPractitioner"
+},
+{
+  "id" : "pacific-practitioner-role",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-practitioner-role",
+  "version" : "1.0.0",
+  "name" : "PacificPractitionerRole"
+},
+{
+  "id" : "pacific-vital-blood-pressure",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-blood-pressure",
+  "version" : "1.0.0",
+  "name" : "PacificVitalBloodPressure"
+},
+{
+  "id" : "pacific-vital-bmi",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-bmi",
+  "version" : "1.0.0",
+  "name" : "PacificBMI"
+},
+{
+  "id" : "pacific-vital-body-temperature",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-body-temperature",
+  "version" : "1.0.0",
+  "name" : "PacificVitalBodyTemperature"
+},
+{
+  "id" : "pacific-vital-heart-rate",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-heart-rate",
+  "version" : "1.0.0",
+  "name" : "PacificVitalHeartRate"
+},
+{
+  "id" : "pacific-vital-height",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-height",
+  "version" : "1.0.0",
+  "name" : "PacificHeight"
+},
+{
+  "id" : "pacific-vital-oxygen-saturation",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-oxygen-saturation",
+  "version" : "1.0.0",
+  "name" : "PacificOxygenSaturation"
+},
+{
+  "id" : "pacific-vital-respiratory-rate",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-respiratory-rate",
+  "version" : "1.0.0",
+  "name" : "PacificRespiratoryRate"
+},
+{
+  "id" : "pacific-vital-weight",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/StructureDefinition/pacific-vital-weight",
+  "version" : "1.0.0",
+  "name" : "PacificWeight"
+},
+{
+  "id" : "heart-rate-loinc",
+  "type" : "ValueSet",
+  "url" : "https://healthinfoservices.net/pacific-base-ig/ValueSet/heart-rate-loinc",
+  "version" : "1.0.0",
+  "name" : "HeartRateVS"
+}]

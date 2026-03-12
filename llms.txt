@@ -1,0 +1,57 @@
+# pacific.base.ig#1.0.0: Pacific Base FHIR Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Gettingstarted](gettingstarted.md)
+* [LICENSE](LICENSE.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Heart Rate LOINC Codes](ValueSet-heart-rate-loinc.md)
+
+### Complex-type Profiles
+
+* [Pacific Address](StructureDefinition-pacific-address.md)
+* [Pacific HumanName](StructureDefinition-pacific-humanname.md)
+
+### Resource Profiles
+
+* [Pacific Allergy/Intolerance](StructureDefinition-pacific-allergy-intolerance.md)
+* [Pacific Condition](StructureDefinition-pacific-condition.md)
+* [Pacific Observation](StructureDefinition-pacific-observation.md)
+* [Pacific Healthcare Organization](StructureDefinition-pacific-organization.md)
+* [Pacific Patient](StructureDefinition-pacific-patient.md)
+* [Pacific Practitioner Role](StructureDefinition-pacific-practitioner-role.md)
+* [Pacific Practitioner](StructureDefinition-pacific-practitioner.md)
+* [Blood Pressure Observation (Pacific region)](StructureDefinition-pacific-vital-blood-pressure.md)
+* [BMI Vitals (Pacific region)](StructureDefinition-pacific-vital-bmi.md)
+* [Body Temperature Vitals (Pacific region)](StructureDefinition-pacific-vital-body-temperature.md)
+* [Heart Rate Vitals (Pacific region)](StructureDefinition-pacific-vital-heart-rate.md)
+* [Height Vitals (Pacific region)](StructureDefinition-pacific-vital-height.md)
+* [Oxygen Saturation Vitals (Pacific region)](StructureDefinition-pacific-vital-oxygen-saturation.md)
+* [Respiratory Rate Vitals (Pacific region)](StructureDefinition-pacific-vital-respiratory-rate.md)
+* [Weight Vitals (Pacific region)](StructureDefinition-pacific-vital-weight.md)
+
+### Extensions
+
+* [Island](StructureDefinition-pacific-address-island.md)
+* [Village](StructureDefinition-pacific-address-village.md)
+* [Pacific Clan Affiliation](StructureDefinition-pacific-clan-affiliation.md)
+
+### ImplementationGuides
+
+* [Pacific Base FHIR Implementation Guide](index.md)
+
+### Examples
+
+* [Suva Divisional Hospital (Organization)](Organization-PacificHospitalExample.md)
+* [PacificPatientExample1 (Patient)](Patient-PacificPatientExample1.md)
+* [PacificPatientExample2 (Patient)](Patient-PacificPatientExample2.md)
+* [PacificPatientFijiITaukei (Patient)](Patient-PacificPatientFijiITaukei.md)
+* [PacificPatientFijiIndo (Patient)](Patient-PacificPatientFijiIndo.md)
+* [PacificPractitionerExample (Practitioner)](Practitioner-PacificPractitionerExample.md)
+* [PacificPractitionerRoleExample (PractitionerRole)](PractitionerRole-PacificPractitionerRoleExample.md)

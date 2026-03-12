@@ -1,0 +1,14 @@
+{
+  "codeSystems" : [{
+    "url" : "https://healthinfoservices.net/pacific-base-ig/ValueSet/heart-rate-loinc",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "HeartRateVS",
+    "title" : "Heart Rate LOINC Codes",
+    "description" : "LOINC codes for heart rate measurements, spot or average.",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-pacific-vital-heart-rate.html" : "Heart Rate Vitals (Pacific region)"
+  }]
+}
