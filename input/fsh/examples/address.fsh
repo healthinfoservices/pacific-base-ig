@@ -1,6 +1,6 @@
 Instance: PacificAddressExampleFiji
 InstanceOf: PacificAddress
-Usage: #example
+Usage: #inline
 
 * text = "Opposite Methodist Church, Nabouwalu Village, Bua Province, Fiji"
 * line[0] = "Opposite Methodist Church"

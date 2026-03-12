@@ -1,6 +1,8 @@
 // Condition registered
 Profile: PacificCondition
 Parent: Condition
+Id: pacific-condition
+Title: "Pacific Condition"
 Description: "Profile of Condition as defined for South Pacific."
 * code 1..1
 * clinicalStatus 1..1 MS
